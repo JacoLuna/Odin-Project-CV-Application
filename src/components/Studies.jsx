@@ -1,10 +1,7 @@
 import CustomInput from "./customInput/CustomInput"
 import CustomForm from "./customForm/CustomForm"
-import { useState } from "react"
 
-function Studies({id}){
-    const [contStudies, setStudies] = useState(1)
-    
+function Studies(){
     const keys = [
         crypto.randomUUID(), 
         crypto.randomUUID(), 
